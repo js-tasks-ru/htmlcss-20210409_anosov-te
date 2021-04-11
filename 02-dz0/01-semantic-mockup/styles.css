@@ -1,0 +1,58 @@
+header {
+    text-align: center;
+    background: red;
+    color: white;
+    padding-top: 5px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+nav {
+    align-content: center;
+    text-align: center;
+    background: orange;
+    padding: 5px;
+}
+
+nav li {
+    font-size: 30px;
+    display: inline;
+    padding: 8px;
+}
+
+nav li a:hover {
+    text-decoration: none;
+}
+
+nav li a:link {
+    color: white;
+}
+
+main {
+    background: green;
+    padding: 5px;
+}
+
+article {
+    background: blue;
+    color: white;
+    font-size: 18px;
+}
+
+article h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+article ul, ol {
+    padding-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    background: mediumpurple;
+    color: white;
+    font-size: 50px;
+}
