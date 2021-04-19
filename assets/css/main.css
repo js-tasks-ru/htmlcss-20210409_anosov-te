@@ -18,9 +18,6 @@
     --primary: var(--blue);
     --secondary: var(--purple);
     --alternate: var(--pink);
-
-    --button-primary-hover: var(--dark-blue);
-    --button-secondary-hover: var(--dark-purple);
 }
 
 * {
