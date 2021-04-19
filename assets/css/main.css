@@ -12,10 +12,13 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #F9FAFC;
+    --dark-blue: #2342C0;
+    --dark-purple: #5028C6;
 
     --primary: var(--blue);
     --secondary: var(--purple);
     --alternate: var(--pink);
+    
     --primary-text-color: var(--black);
 }
 
