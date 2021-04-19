@@ -16,6 +16,7 @@
     --primary: var(--blue);
     --secondary: var(--purple);
     --alternate: var(--pink);
+    --primary-text-color: var(--black);
 }
 
 * {
