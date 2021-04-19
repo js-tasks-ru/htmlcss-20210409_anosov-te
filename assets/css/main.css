@@ -21,6 +21,7 @@
 
     --button-primary-hover: var(--dark-blue);
     --button-secondary-hover: var(--dark-purple);
+    --primary-text-color: var(--black);
 }
 
 * {
