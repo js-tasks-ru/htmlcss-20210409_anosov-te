@@ -17,7 +17,7 @@
     border-radius: 12px;
 }
 
-.preview-flex__card__body {
+.preview-flex__card-body {
     /* temporary */
     height: 75%;
 
@@ -26,13 +26,13 @@
     justify-content: center;
 }
 
-.preview-flex__card__footer {
+.preview-flex__card-footer {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
 
-.preview-flex__card__title {
+.preview-flex__card-title {
     margin-bottom: 5px;
     font-family: Roboto, sans-serif;
     font-style: normal;
