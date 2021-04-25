@@ -1,3 +1,8 @@
+html,
+body {
+    height: 100%;
+}
+
 .page {
     background: var(--grey-1);
     display: grid;
@@ -18,16 +23,17 @@
     max-width: 1110px;
     width: 100%;
     justify-self: center;
+    align-content: stretch;
 }
 
 .page__main-menu {
     width: 229px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .page__main-menu h4 {
+    margin-top: 0;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
