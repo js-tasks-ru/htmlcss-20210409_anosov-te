@@ -1,0 +1,92 @@
+.page {
+    background: var(--grey-1);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 56px;
+    height: 100%;
+}
+
+.page__header {
+    background: var(--white);
+    height: 82px;
+}
+
+.page__main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+    max-width: 1110px;
+    width: 100%;
+    justify-self: center;
+}
+
+.page__main-menu {
+    width: 229px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page__main-menu h4 {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: var(--black);
+}
+
+.page__main-menu a {
+    margin-bottom: 4px;
+    text-decoration: none;
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.page__main-menu a:hover {
+    text-decoration: none;
+}
+
+.page__main-menu a:link {
+    color: var(--black);
+}
+
+.page__main-menu a:visited {
+    color: var(--black);
+}
+
+.page__main-component {
+    background: var(--white);
+}
+
+.page__footer {
+    padding: 2rem;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--grey-3);
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.margin-bottom {
+    margin-bottom: 1em;
+}
