@@ -32,7 +32,7 @@ body {
     flex-direction: column;
 }
 
-.page__main-menu h4 {
+.page__main-menu-title {
     margin-top: 0;
     font-family: Inter, sans-serif;
     font-style: normal;
@@ -43,7 +43,7 @@ body {
     color: var(--black);
 }
 
-.page__main-menu a {
+.page__main-menu-item {
     margin-bottom: 4px;
     text-decoration: none;
 
@@ -54,15 +54,15 @@ body {
     line-height: 22px;
 }
 
-.page__main-menu a:hover {
+.page__main-menu-item:hover {
     text-decoration: none;
 }
 
-.page__main-menu a:link {
+.page__main-menu-item:link {
     color: var(--black);
 }
 
-.page__main-menu a:visited {
+.page__main-menu-item:visited {
     color: var(--black);
 }
 
