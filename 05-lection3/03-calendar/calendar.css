@@ -53,10 +53,10 @@
     background: var(--blue);
 }
 
-.calendar__item_semi-active {
+.calendar__item_between-active {
     background: var(--light-blue);
 }
 
-.calendar__item_day {
+.calendar__item-day {
     color: var(--light-grey);
 }
