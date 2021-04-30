@@ -1,12 +1,11 @@
 .nav {
-    display: flex;
-    align-items: center;
+    display: none;
 }
 
-/* todo: add global css variable */
-@media all and (max-width: 1200px) {
+@media all and (min-width: 768px) {
     .nav {
-        display: none;
+        display: flex;
+        align-items: center;
     }
 }
 
