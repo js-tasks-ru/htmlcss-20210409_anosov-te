@@ -3,8 +3,7 @@
 }
 
 .page__box {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-width: 1100px;
+    max-width: 1140px;
     margin: auto;
+    padding: 0 15px;
 }

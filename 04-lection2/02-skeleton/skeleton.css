@@ -4,6 +4,7 @@
 
 .skeleton__body {
     /* temporary margin for testing */
+    width: 100%;
     margin: 10px;
     padding: 24px;
 

@@ -3,6 +3,13 @@
     align-items: center;
 }
 
+/* todo: add global css variable */
+@media all and (max-width: 1200px) {
+    .nav {
+        display: none;
+    }
+}
+
 .nav__item {
     margin: 0 24px;
     color: var(--grey-3);
