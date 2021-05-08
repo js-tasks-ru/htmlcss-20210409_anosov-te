@@ -34,13 +34,7 @@
     left: 50%;
     transform: translateX(-50%);
     border: 8px solid transparent;
-}
-
-.tooltip__helper:after {
     border-top: 6px solid var(--primary);
-}
-
-.tooltip__helper:after {
     display: inline-block;
     position: absolute;
     content: "";
