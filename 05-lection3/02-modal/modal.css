@@ -26,7 +26,7 @@
     text-decoration: none;
 }
 
-.modal-cross {
+.modal__cross {
     width: 16px;
     height: 16px;
     color: var(--black);
