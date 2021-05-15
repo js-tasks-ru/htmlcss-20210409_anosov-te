@@ -21,6 +21,9 @@
     --primary: var(--blue);
     --secondary: var(--purple);
     --alternate: var(--pink);
+
+    --input-invalid: #F03D3E;
+    --input-success: #374FC7;
     
     --primary-text-color: var(--black);
 }

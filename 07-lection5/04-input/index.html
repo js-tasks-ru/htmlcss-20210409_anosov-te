@@ -2,10 +2,38 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
+        <title>Input</title>
     </head>
     <body>
-
+        <div class="input-container">
+            <label class="input__label" for="input1">Default</label>
+            <div class="input">
+                <input type="text" id="input1" placeholder="Placeholder">
+            </div>
+            <p class="input__status">Status</p>
+        </div>
+        <div class="input-container">
+            <label class="input__label" for="input2">Success</label>
+            <div class="input input_success">
+                <input type="text" id="input2" placeholder="Placeholder" value="Success">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="input__icon">
+                    <use xlink:href="../../assets/images/sprites.svg#input-success" />
+                </svg>
+            </div>
+            <p class="input__status">Status</p>
+        </div>
+        <div class="input-container">
+            <label class="input__label" for="input3">Error</label>
+            <div class="input input_invalid">
+                <input type="text" id="input3" placeholder="Placeholder" value="Error">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="input__icon">
+                    <use xlink:href="../../assets/images/sprites.svg#input-error" />
+                </svg>
+            </div>
+            <p class="input__status">Status</p>
+        </div>
     </body>
 </html>
