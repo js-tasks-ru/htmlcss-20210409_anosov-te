@@ -15,5 +15,8 @@
         <symbol id="radio-checked" width="18" height="18" viewBox="0 0 18 18" fill="currentColor">
             <rect width="18" height="18" rx="9" fill="none"/>
         </symbol>
+        <symbol id="toggler-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <rect width="24" height="24" rx="12" fill="none"/>
+        </symbol>
     </defs>
 </svg>
