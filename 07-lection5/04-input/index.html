@@ -2,10 +2,38 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
+        <title>Input</title>
     </head>
     <body>
-
+        <div class="input-group">
+            <label class="input-group__label" for="input1">Default</label>
+            <div class="input-group__input">
+                <input type="text" id="input1" placeholder="Placeholder">
+            </div>
+            <p class="input-group__status">Status</p>
+        </div>
+        <div class="input-group">
+            <label class="input-group__label" for="input2">Success</label>
+            <div class="input-group__input input-group__input_success">
+                <input type="text" id="input2" placeholder="Placeholder" value="Success">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="input-group__input-icon">
+                    <use xlink:href="../../assets/images/sprites.svg#input-success" />
+                </svg>
+            </div>
+            <p class="input-group__status input-group__status_success">Status</p>
+        </div>
+        <div class="input-group">
+            <label class="input-group__label" for="input3">Error</label>
+            <div class="input-group__input input-group__input_invalid">
+                <input type="text" id="input3" placeholder="Placeholder" value="Error">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="input-group__input-icon">
+                    <use xlink:href="../../assets/images/sprites.svg#input-error" />
+                </svg>
+            </div>
+            <p class="input-group__status input-group__status_invalid">Status</p>
+        </div>
     </body>
 </html>
