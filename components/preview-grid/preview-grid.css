@@ -1,0 +1,10 @@
+.preview-grid {
+    padding: 68px 0 92px;
+    background: var(--grey-5);
+}
+
+.preview-grid__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px;
+}

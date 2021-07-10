@@ -26,6 +26,10 @@
     --input-success: #374FC7;
     
     --primary-text-color: var(--black);
+
+    --desktop-width: 1200px;
+    --tablet-width: 768px;
+    --touch-width: 432px;
 }
 
 * {
